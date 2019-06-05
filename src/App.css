@@ -60,10 +60,6 @@
   min-width: 200px;
   height: 200px;
 }
-.post img {
-  height: 200px;
-  border-radius: 5px;
-}
 
 @keyframes App-logo-spin {
   from {
