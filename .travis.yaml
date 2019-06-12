@@ -18,4 +18,4 @@ deploy:
   target-branch: master 
   commit_message: 'deploy realese ${TRAVIS_TAG}'
   on: 
-    branch: develop
+    branch: master
