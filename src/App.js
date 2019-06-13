@@ -3,14 +3,6 @@ import "./App.css";
 import data from "./data";
 import LazyLoad from "react-lazyload";
 
-const Loading = () => {
-  return (
-    <div className="post loading">
-      <h5>Loading...</h5>
-    </div>
-  );
-};
-
 const Spinner = () => (
   <div className="post loading">
     <svg
