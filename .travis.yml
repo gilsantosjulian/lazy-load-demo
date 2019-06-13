@@ -14,7 +14,7 @@ deploy:
   skip-cleanup: true
   keep-history: true
   github-token: $GITHUB_TOKEN
-  local-dir: dist/
+  local-dir: build/
   target-branch: master 
   commit_message: 'deploy realese ${TRAVIS_TAG}'
   on: 
